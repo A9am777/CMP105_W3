@@ -25,5 +25,7 @@ private:
 	Input* input;
 
 	sf::CircleShape circle;
+	sf::CircleShape player;
+	sf::Vector2f velocityPlayer;
 	sf::Vector2f velocityCircle;
 };
